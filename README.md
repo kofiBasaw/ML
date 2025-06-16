@@ -5,9 +5,13 @@ F1 DRIVERS: USE OF MACHINE LEARNING TECHNIQUES TO PREDICT WHETHER A DRIVER WILL 
 EXPLANATION OF THE VARIABLES USED
 
 Race Information
+
 •	raceId → Unique identifier for each race.
+
 •	year → Year in which the race took place.
+
 •	round → Round number of the race within the season.
+
 •	circuitId → Unique identifier for the circuit.
 •	circuit_name → Name of the circuit.
 •	location → Location of the circuit.
