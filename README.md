@@ -4,7 +4,7 @@ F1 DRIVERS: USE OF MACHINE LEARNING TECHNIQUES TO PREDICT WHETHER A DRIVER WILL 
 
 EXPLANATION OF THE VARIABLES USED
 
-## Race Information
+##### Race Information
 
 •	raceId → Unique identifier for each race.
 
@@ -24,7 +24,7 @@ EXPLANATION OF THE VARIABLES USED
 
 •	event_name → Official name of the event.
 ________________________________________
-## Constructor (Team) Information
+##### Constructor (Team) Information
 
 •	constructorId → Unique identifier for each constructor.
 
@@ -36,7 +36,7 @@ ________________________________________
 
 •	constructor_qtime_gap → Delay in qualifying (per race), calculated as the gap between the team's average best two times and the overall best average (the best team will have 0).
 ________________________________________
-## Driver Information
+##### Driver Information
 
 •	driverId → Unique identifier for the driver.
 
@@ -48,7 +48,7 @@ ________________________________________
 
 •	experience → Number of races completed before that race.
 ________________________________________
-## Race Performance
+##### Race Performance
 
 •	grid → Starting grid position.
 
@@ -60,7 +60,7 @@ ________________________________________
 
 •	position_driver_championship → Driver’s position in the championship standings before that race.
 ________________________________________
-## Incidents and Retirements
+##### Incidents and Retirements
 
 •	is_crash → 1 if the driver retired due to crash, 0 if not
 
@@ -86,7 +86,7 @@ ________________________________________
 
 •	retirement_target → 1 if the driver did not finish the race, 0 if they completed it.
 ________________________________________
-##  Weather and Circuit Conditions
+#####  Weather and Circuit Conditions
 
 •	alt → Altitude of the circuit.
 
